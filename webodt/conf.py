@@ -14,3 +14,4 @@ WEBODT_ODF_TEMPLATE_PREPROCESSORS = getattr(settings, 'WEBODT_ODF_TEMPLATE_PREPR
     'webodt.preprocessors.xmlfor_preprocessor',
     'webodt.preprocessors.unescape_templatetags_preprocessor',
 ])
+WEBODT_OOBIN_COMMAND = getattr(settings, 'WEBODT_OOBIN_COMMAND', '')
